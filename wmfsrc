@@ -1,9 +1,9 @@
 [misc]
-        font                  = "Terminus-8"
-        raisefocus            = true
-        raiseswitch           = true
-        focus_follow_mouse    = true
-        focus_follow_movement = true
+        font                  = "Inconsolata-9"
+        raisefocus            = false
+        raiseswitch           = false
+        focus_follow_mouse    = false
+        focus_follow_movement = false
         opacity               = 255
 
         # focus_pointer_click: click on unfocused client area:
@@ -418,7 +418,7 @@
         [key] mod = {"Alt", "Shift"} key = "d" func = "set_nmaster" cmd = "-1" [/key]
 
         #Launcher.
-        [key] mod = {"Control"} key = "space" func = "launcher" cmd = "launcher_exec" [/key]
+        [key] mod = {"Super"} key = "space" func = "launcher" cmd = "launcher_exec" [/key]
 
         #ViWMFS
         [key] mod = {"Super"} key = "Escape" func = "launcher" cmd = "viwmfs" [/key]
